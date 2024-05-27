@@ -1,0 +1,15 @@
+<article id="{{ include.id }}" class="transcript"></div>
+
+<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+<script>
+  (function() {
+    const container = document.getElementById('{{ include.id }}');
+
+    fetch('{{ include.transcript }}')
+      .then(response => response.text())
+      .then(text => {
+        const converter = new showdown.Converter();
+        container.innerHTML = converter.makeHtml(text);
+      });
+  })();
+</script>

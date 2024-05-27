@@ -1,0 +1,12 @@
+title: MUSA 5090 Spring 2024 Videos
+email: mjumbe@design.upenn.edu
+description: >-
+  Links to the video lectures from MUSA 5090 taught in Spring 2024
+baseurl: ""
+url: ""
+
+# Build settings
+theme: minima
+show_excerpts: true
+plugins:
+  - jekyll-feed

@@ -1,0 +1,12 @@
+<video controls crossorigin="anonymous" preload="metadata">
+  <source
+    src="{{ include.source }}"
+    type="video/mp4">
+
+  <track
+    label="English"
+    kind="subtitles"
+    srclang="en"
+    src="{{ include.subtitles }}"
+    default />
+</video>
