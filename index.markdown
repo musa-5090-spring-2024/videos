@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+You can find the original course organization at [https://github.com/musa-5090-spring-2024/](https://github.com/musa-5090-spring-2024/). The [course-info](https://github.com/musa-5090-spring-2024/course-info) repository contains helpful weekly content.
